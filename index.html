@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Promotional Website</title>
+</head>
+
+<body>
+
+    <section class="bg-vid">
+        <video autoplay loop muted class="back-video">
+            <source src="assets/bgvideo.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <header class="main-hero">
+
+        <nav>
+            <div class="logo">
+                <img src="/assets/logo.png" alt="SeaGuide Logo">
+                <a href="index.html" target="_self">SeaGuide</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li id="link1"><a href="#teams">Teams</a></li>
+                <li id="link2"><a href="#features">Features</a></li>
+                <li id="link3"><a href="#about-us">About Us</a></li>
+            </ul>
+            <button id="menuButton" onclick="openMenu()">
+                <i class='bx bx-menu'></i>
+            </button>
+            <div class="join-btn">
+                <button class="jn-btn">Join Us<i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+            <div class="pro-btn">
+                <button>Go Pro<i class='bx bx-crown'></i></button>
+            </div>
+        </nav>
+
+
+        <section class="main">
+            <div class="left-main">
+                <h5>Enjoy delicious seafood without harming the planet. <br> Learn about sustainable choices and make a
+                    difference.</h5>
+                <h3>Connecting you to the <br>beauty of the sea, one <br>adventure at a time.</h3>
+                <div class="hero-btn">
+                    <button class="main-btn">Start your Journey<i class='bx bx-right-arrow-alt'></i></button>
+                </div>
+            </div>
+            <section class="right">
+
+            </section>
+        </section>
+    </header>
+
+    <div class="teams reveal">
+        <h2 id="teams">MEET OUR TEAMS</h2>
+        <h4 class="word-text">SeaGuide was founded by a group of marine conservationists, sustainability advocates, and
+            technology experts who
+            are passionate about ocean health. Our team works tirelessly to develop innovative solutions to ocean
+            conservation.
+        </h4>
+        <div class="items">
+            <div class="item">
+                <div class="inner">
+                    <img src="assets/Dalogdog.jpg" alt="">
+                    <a href="#">Alexander Dalogdog</a>
+                    <h4>Chief Executive Officer</h4>
+                    <p>
+                        Alexander Dalogdog is the CEO of SeaGuide, leading the company with a focus on sustainability in
+                        the blue
+                        economy. His strategic vision drives innovation and growth, addressing environmental challenges
+                        while promoting
+                        sustainable practices in marine ecosystems.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <img src="/assets/Bual.jpg" alt="">
+                    <a href="#">Gerald Bual</a>
+                    <h4>Chief Marketing Officer</h4>
+                    <p>
+                        Gerald Bual is the CMO of SeaGuide, specializing in digital marketing and brand management. He
+                        focuses on
+                        strategic marketing, customer engagement, and increasing brand visibility to promote SeaGuide’s
+                        mission of
+                        sustainability and marine conservation.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <img src="/assets/Omila.jpg" alt="">
+                    <a href="#">Cyndara Mae Omila</a>
+                    <h4>Chief Financial Officer</h4>
+                    <p>
+                        Cyndara Mae Omila is the CFO of SeaGuide, responsible for overseeing the company’s financial
+                        operations.
+                        With a strong background in financial management, she ensures the organization’s fiscal health
+                        through strategic
+                        budgeting, forecasting, and resource allocation.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <img src="/assets/Jhoanie.jpg" alt="">
+                    <a href="#">Jhoanie Mercado</a>
+                    <h4>Chief Operating Officer</h4>
+                    <p>
+                        Jhoanie Mercado is the COO of SeaGuide, responsible for overseeing the company’s day-to-day
+                        operations. With a
+                        focus on efficiency and performance, she manages operational strategies, resource allocation,
+                        and process
+                        improvements to drive growth and streamline business functions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sec-features reveal">
+        <div class="title">
+            <h1 id="features">Discover SeaGuide's Unique Offerings</h1>
+        </div>
+        <div class="subtitle">
+            <h3>Empowering Startups with Innovative Solutions</h3>
+        </div>
+        <div class="description">
+            <p>
+                Uncover the innovative features that set SeaGuide apart in the startup world.
+                Our platform is designed to propel your business forward with cutting-edge tools and expert guidance.
+            </p>
+        </div>
+        <ul class="features">
+            <li><i class='bx bx-bolt-circle'></i> Informative Sustainable Seafood Practices and Choices</li>
+            <li><i class='bx bxs-report'></i> Reporting Tool to report unethical fishing activities</li>
+            <li><i class='bx bx-male-female'></i> Enhanced Community Engagement</li>
+            <li><i class='bx bx-timer'></i> Real-time Fishing Hotspots and Trends</li>
+        </ul>
+        <button class="features-btn">Explore Features</button>
+    </div>
+
+    <section class="about reveal">
+        <div class="left-about">
+            <h1 id="about-us">About Us</h1>
+            <p>Seaguide is dedicated to provide relaible sources of information for users to promote sustainability
+                through seafood
+                practices and choices as well as a hub to report unethical fishing practices and the selling of
+                unsustainable
+                seafood products in the market.
+            </p>
+            <div class="about-btn">
+                <button class="primary-btn">Learn More</button>
+            </div>
+        </div>
+        <section class="right-sec">
+            <video controls loop src="/assets/Seaguide.mp4" width="600"></video>
+        </section>
+    </section>
+
+
+    <footer class="footer reveal">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="/assets/logo.png" alt="SeaGuide Logo">
+                <p>At SeaGuide, we provide reliable sources of information and a reporting haven for our users.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Venture</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sustainable Practices</a></li>
+                    <li><a href="#">Reporting Hub</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Country</h4>
+                <ul>
+                    <li>Philippines</li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Subscribe to our newsletter to get the latest news and insights.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit"><i class="fas fa-paper-plane">Send</i></button>
+                </form>
+                <p>By subscribing, you accept the Privacy Policy.</p>
+            </div>
+        </div>
+
+        <section class="tao">
+            <div class="hours">
+                <i class='bx bx-calendar-check'></i>
+                <div>
+                    <h4>Monday - Thursday</h4>
+                    <p>12:00 am - 12:00 pm</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div class="contacts">
+            <h4>Contact Us</h4>
+            <p><i class='bx bx-phone-call'></i> +63 068-6676-066</p>
+            <p><i class='bx bx-mail-send'></i> seaguide@gmail.com</p>
+            <p><i class='bx bx-world'></i> seaguide.info</p>
+            <p><i class='bx bxl-facebook-square'></i> seaguide</p>
+        </div>
+
+
+        <br><br>
+        <hr>
+        <div class="reserved">
+            <p>© SeaGuide 2024, Pioneering Sustainable Seafood Choices</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
